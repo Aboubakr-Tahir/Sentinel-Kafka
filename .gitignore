@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.class
+venv/
+.venv/
+.env
+
+# --- Scala / SBT ---
+target/
+project/project/
+project/target/
+.bsp/
+.scala-build/
+
+# --- IDE Settings ---
+.idea/
+.vscode/
+*.iml
+*.class
+*.log
+
+# --- Kafka & Project Runtime ---
+# Logs et fichiers temporaires générés par l'app
+tmp/*
+logs/
+# On garde le dossier mais pas le contenu (sauf un fichier vide .gitkeep si besoin)
+!tmp/.gitkeep
+
+# Fichiers de offsets Kafka Connect locaux
+connect.offsets
+
+# Plugins binaires (On ne commit pas les JARs, on explique comment les installer)
+plugins/*.jar
+
+# Credentials (Sécurité)
+secrets/
+*.jks
