@@ -13,6 +13,7 @@ project/target/
 .bsp/
 .scala-build/
 
+
 # --- IDE Settings ---
 .idea/
 .vscode/
@@ -36,3 +37,5 @@ plugins/*.jar
 # Credentials (Sécurité)
 secrets/
 *.jks
+
+kafka-connect.sh

@@ -58,7 +58,7 @@ object AlertSystem extends App {
   )
 
   val props = new Properties()
-  props.put(StreamsConfig.APPLICATION_ID_CONFIG, "sentinel-alert-system")
+  props.put(StreamsConfig.APPLICATION_ID_CONFIG, "sentinel-alert-system-v2")
   props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092")
   // La sérialisation par défaut pour les clés (String pour component_id) et valeurs (String pour le JSON)
   props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.stringSerde.getClass)

@@ -1,0 +1,12 @@
+[theme]
+base="dark"
+primaryColor="#00ff41" # Vert "Hacker"
+backgroundColor="#0e1117" # Noir profond
+secondaryBackgroundColor="#262730" # Gris foncé pour sidenav/cards
+textColor="#fafafa"
+font="monospace"
+
+[server]
+headless = true
+port = 8501
+address = "0.0.0.0"
