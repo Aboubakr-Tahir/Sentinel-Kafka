@@ -93,7 +93,7 @@ object AlertSystem extends App {
   // On ne regarde que les dangers immédiats qui ne peuvent pas attendre 5 minutes.
   parsedStream.filter { (key, metric) =>
     (metric.component_id == "DISK" && metric.value > 95.0) ||
-    (metric.component_id == "RAM" && metric.value > 60.0)
+    (metric.component_id == "RAM" && metric.value > 95.0)
   }
   .map { (key, metric) =>
     val alert = Alert(

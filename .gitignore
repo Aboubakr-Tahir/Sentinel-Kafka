@@ -12,7 +12,8 @@ project/project/
 project/target/
 .bsp/
 .scala-build/
-
+.metals/
+.bloop/
 
 # --- IDE Settings ---
 .idea/
