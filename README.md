@@ -4,8 +4,9 @@ Sentinel est une solution de monitoring système temps réel basée sur **Apache
 
 ## 🎥 Démo du Dashboard
 
-https://github.com/user-attachments/assets/kakfa_showcase.mp4
-> *Note: Si la vidéo ne s'affiche pas directement, [cliquez ici pour la télécharger](assets/kakfa_showcase.mp4).*
+[![Voir la vidéo de démonstration](assets/architecture_design.png)](assets/kakfa_showcase.mp4)
+
+> *Cliquez sur l'image ci-dessus pour lancer la vidéo, ou [téléchargez-la ici](assets/kakfa_showcase.mp4).*
 
 ## 🏗️ Architecture
 
